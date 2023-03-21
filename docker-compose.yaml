@@ -4,7 +4,7 @@ services:
     build: apache
     container_name: sae
     volumes:
-      - ./storage/sae:/var/www/html
+      - ./storage/sae2:/var/www/html
     ports:
       - 8185:80
   postgres:
